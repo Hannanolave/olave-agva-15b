@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item"><a href="home.html">Home</a></div>
+      <div class="menu-item">Products &amp Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to Foodology</h2>
+        <p>
+          We offer an affordable, sustainable farm-to-table solution for an
+          undernourished society. We are proud of ourselves for the quality and
+          outstanding standards of the food we place on your tables. We started
+          this vision as a produce Coop and slowly developed a family company
+          rich in flavor and values.
+        </p>
+        <p>
+          We guarantee our customers that the food they get here is non-GMO,
+          organic, local, and sustainable. Each plate is a creation per se
+          because there is much thought in them. We balance minerals, vitamins,
+          nutrients, and fibers to elaborate dishes with the right daily healthy
+          proportions.
+        </p>
+        <p>
+          Families run our business. We gather people with extraordinary talents
+          to achieve the highest standards without elevated prices. We also give
+          guidance and classes to help our community expand its knowledge of
+          Victory and urban gardens. These classes are free, and people must
+          avail themselves of the seeds, soil, and growing boxes. It is
+          fantastic to see little children harvesting their food at such an
+          early age. This keeps the traditions solid and durable.
+        </p>
+        <p>
+          Our company model is eclectic and full of holistic pathways to enrich
+          our products and create a solid internal atmosphere. We believe what
+          we preach, and everyone in our company cherishes the same values and
+          principles, which guarantee the fulfillment of our purpose: Support
+          the coming generations through healthy, whole foods and practices.
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          src="https://cdn.glitch.global/a6e22dcc-0364-4523-a748-f188a5d2d752/Foodology%20Logo%20Small.jpg?v=1670029406673"
+          alt="Foodology Logo"
+          width="217"
+          height="64"
+        />
+        <div>
+          <ul>
+            <li>Online Shop</li>
+            <li>Restaurant</li>
+            <li>Recipes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Black Friday Offer</h4>
+        <p>
+          You can get up to 21 free meals and free shipping in honor of Black
+          Friday. Don't miss out this opportunity and claim your discount with
+          our promo codes.
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Healthy Recipe Contest</h4>
+        <p>
+          Each month we will review recipe submissions and announce 10 winners
+          who will receive $25 to our shop. Then we will announce a new key
+          ingredient for a fresh contest the following month.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+
+    <div style="text-align: center">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
